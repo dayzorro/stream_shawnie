@@ -5,7 +5,8 @@ import os
 os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
 
 # model_size = "medium"
-model_size = "./models/whisper-tiny-zh-ct2"
+# model_size = "./models/whisper-tiny-zh-ct2"
+model_size = "./models/whisper-medium-zh-CN-ct2"
 
 
 class WhisperTranscriber:
